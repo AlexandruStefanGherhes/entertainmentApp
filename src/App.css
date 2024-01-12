@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;400;600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body,html{
+  background-color:#10141E;
+  color:white;
+  font-family:Outfit;
+  /* padding:.5rem; */
+}
+
+@media only screen and (min-width:760px){
+  body{
+    padding:1rem;
+  }
+}
